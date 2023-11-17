@@ -18,7 +18,7 @@ Then('enter username and password') do
 end
 
 Then('click on login button') do
-  driver.find_element(:id, 'login-button').click()
+  driver.find_element(:id, 'login-button').click
   sleep(3)
 end
 
